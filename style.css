@@ -50,6 +50,18 @@
   width: 100%;
   margin-top: 80px;
 }
+@media screen and (max-width:420px){
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third{
+    width: 100%;
+  margin: auto;
+    border: 2px solid black;
+    padding: 3%;
+    background-color: salmon;
+
+  }
+}
 
 #why .row img {
   background-color: #428bca;
@@ -143,7 +155,7 @@ font-size: 15px;
   }
 }
 @media screen and (max-width:420px){
-  #steps {
+  #steps .row {
 border-radius: 50%; background: rgb(58,180,91);
 background: rgb(58,180,91);
 background: linear-gradient(90deg, rgba(58,180,91,1) 0%, rgba(253,198,29,0.2327431216627276) 50%, rgba(252,176,69,1) 100%);
